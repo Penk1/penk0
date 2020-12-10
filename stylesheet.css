@@ -1,0 +1,156 @@
+body{
+  background:url("uz5.png");
+  background-size:cover;
+  }
+
+.wrapper{
+  width:1040px;
+  float:left;
+  margin:40px 20px;
+   }
+
+   .header-0{
+     background-color:rgb(204, 201, 196);
+     width:1000px;
+     height:180px;
+     border:solid 20px rgb(61, 60, 59);
+     border-radius:40px;
+     overflow:hidden;
+     position:relative;
+    }
+    
+    
+    .header-wrapper{
+      background:url("tz1.png");
+      background-size:200px;
+      width:2000px;
+      height:200px;
+      animation: slide 60s linear infinite;
+      position:absolute;
+    }
+
+    @keyframes slide{
+      0%{transform:translate3d(0,0,0);}
+      100%{transform:translate3d(-1000px,0,0);}
+    }
+
+    #hide{
+      background:url("pp2.png");
+      background-size:200px;
+      width:2000px;
+      height:200px;
+      position:absolute;
+      
+    }
+    .filter{
+      background-color:rgba(207, 12, 12, 0.5);
+      width:2000px;
+      height:200px;
+      position:absolute;
+    }
+
+    
+
+    .text-wrapper{
+      color:white;
+      position:absolute;
+      top:60px;
+      left:60px;
+    }
+
+    .introduce{
+      font-weight:bold;
+    }
+
+    button{
+      background-color:rgb(145, 13, 13);
+      text-align:center;
+      width:140px;
+      margin:50px 0px 50px 50px;
+    }
+
+    a{
+      color:white;
+      font-weight:bold;
+    }
+
+    main{
+      background-color:rgb(61, 61, 59);
+      width:1040px;
+      height:600px;
+      border-radius:40px;
+    }
+
+    h3 {
+      color:white;
+      padding-top:20px;
+      
+    }
+
+    .fotos{
+      background:black;
+      width:500px;
+      height:450px;
+      margin:20px 0px 0px 20px;
+      float:left;
+    }
+
+    
+
+    textarea{
+      margin:20px 20px;
+    }
+
+    .old{
+      float:right;
+      margin:0px 20px;
+      border-radius:0px 0px 40px 0px;
+    }
+
+    footer{
+      width:1040px;
+      height:180px;
+      float:left;
+      line-height:200px;
+      margin-top:20px;
+    }
+
+
+    .logo-wrapper{
+      position:relative;
+      width:200px;
+      height:180px;
+      float:right;
+    }
+
+    .logo{
+      width:200px;
+      height:180px;
+      position:absolute;
+      top:0;
+      left:0;
+    }
+
+    #close{
+      position:absolute;
+      top:0;
+      left:0;
+      width:200px;
+      height:180px;
+      display:none;
+     }
+
+
+
+    small{
+      color:white;
+      font-weight:bold;
+      float:left;
+      margin:0px 0px 0px 20px;
+
+    }
+
+
+
+
+
