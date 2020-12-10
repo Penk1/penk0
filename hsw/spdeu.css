@@ -1,0 +1,233 @@
+
+body{
+  background:black;}
+
+  .wrapper{
+    width:800px;
+    margin:20px auto;
+
+    }
+
+    header{
+      background:rgb(208,202,86);
+      width:800px;
+      height:150px;
+      border:solid 10px rgb(87, 87, 83);
+      border-radius:50px;
+      position:relative;
+      overflow:hidden;
+      margin:20px 0;
+     
+      }
+
+      
+      .foto-wrapper2{
+        background:url("deusp200.png");
+        width:380px;
+        height:150px;
+        float:right;
+        margin-right:50px;
+        
+      }
+
+      .migi-wrapper{
+        width:227px;
+        height:105px;
+       
+        overflow: hidden;
+        margin-top:23px;
+        margin-left:20px;
+       position:relative;
+       
+      }
+    
+      .migi{
+        width:235px;
+        height:210px;
+        display:block;
+        position:absolute;
+        top:-25px;
+        left:0px;
+       
+        animation:slide 2s linear infinite;
+        }
+
+        @keyframes slide{
+          0%{transform:translate(0,0,0);}
+          100%{transform:translate(0,-150px,0);}
+        }
+
+       
+
+
+       .foto-wrapper1{
+        background:url("deusp100.png");
+        width:390px;
+        height:150px;
+        float:left;
+        margin-right:-80px;
+        margin-left:50px;
+        position:relative;
+        
+        }
+
+        .hidari-wrapper{
+          
+          width:198px;
+          height:57px;
+          margin-left:157px;
+          margin-top:45px;
+          
+          overflow: hidden;
+          position:relative;}
+
+        .hidari{
+          width:203px;
+          height:126px;
+          display:block;
+          
+          animation:slide 3s linear infinite;
+          position:absolute;
+          top:0px;
+          left:0px;}
+
+          @keyframes slide{
+            0%{transform:translate3d(0,0,0);}
+            100%{transform:translate3d(0,-60px,0);}
+          }
+
+          .header-filter{
+            background-color:rgba(9,9,9,0.5);
+            width:800px;
+            height:150px;
+            position:absolute;
+            top:0px;
+            left:0px;
+           
+          }
+
+          h1{
+            color:white;
+            margin-left:40px;}
+
+          .header-p{
+            color:white;
+            font-weight:bold;
+            margin-left:40px;
+          }
+
+          h2{color:rgb(19, 70, 50);}
+
+          
+
+        .text{
+          background-color:rgb(202, 200, 196);
+          width:720px;
+          padding:20px 40px;
+          margin:20px 0;
+          border-radius:50px;
+          border:10px solid rgb(185, 32, 32);
+         }
+
+
+         .span-wrapper{
+          border:solid 10px rgb(50, 40, 148);
+          display:none;
+          
+         }
+         .important{
+           color:rgb(211, 22, 22);
+           font-weight:bold;
+           
+          }
+    
+          footer{
+            width:800px;
+            height:250px;
+            background-color:rgb(19, 70, 50);
+            border-radius:50px;
+            border:solid 10px rgb(87, 87, 83);
+            
+            }
+
+            .intro{
+              background-image:url("penklogo.png");
+              background-size:cover;
+              width:200px;
+              height:190px;
+              margin-top:10px;
+              margin-right:10px;
+              float:right;
+              position: relative;
+
+            }
+
+            
+
+            .footer-penk{
+              background:rgba(218, 215, 215, 0.5);
+              width:160px;
+              height:130px;
+              border-radius:50%;
+              display:block;
+              position:absolute;
+              top:10px;
+              left:20px;
+              padding-bottom:-30px;
+              padding-top:30px;
+              margin-left:4px;
+              color:black;
+              font-size:3px;
+              font-weight:bold;
+              text-align:center;
+              line-height:15px;
+            }
+
+            button{
+              background:rgb(141, 16, 16);
+              float:right;
+              margin:200px -170px 0px 0px;
+              border:none;
+              cursor:pointer;
+              outline:none;
+              appearance:none;
+              box-shadow: rgb(3, 3, 3) 0px 5px;
+              position:relative;
+              
+              
+             }
+
+             button:hover{
+              background-color:black;
+              color:rgb(120, 37, 168);
+              box-shadow: rgb(238, 238, 238) 0px 5px;
+
+             }
+
+             button:active{
+               box-shadow:none;
+               top:5px;
+             }
+             .destroy{
+               color:rgb(7, 7, 7);
+               font-weight:bold;
+             }
+
+             #blog{
+               display:none;
+               color:white;
+               font-weight:bold;
+             }
+              .text-p{display:none;
+                  color:black;
+                  font-weight:bold;
+                  }
+
+                  span{color:red;font-weight:bold;}
+
+
+            
+             
+
+
+                  
