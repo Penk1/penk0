@@ -9,7 +9,7 @@ body{
 
   .wrapper{
     width:1000px;
-    margin-top:150px;
+    margin-top:80px;
    margin-left:30px;
   }
 
@@ -126,7 +126,10 @@ body{
               top:5px;
             }
           
-
+            .musik{
+              font-size:20px;
+              font-weight:bold;
+            }
 
         .img-wrapper2{
           background:url("cd.png");
@@ -189,6 +192,12 @@ body{
         width:140px;
         height:140px;
       }
+
+
+      .toppage{
+        color:white;
+        font-size:13px;
+      }
         
       .msk2{
         background:radial-gradient(rgb(255,255,255),rgb(80, 79, 76));
@@ -212,6 +221,35 @@ body{
           height:90px;
         }
 
+        .maintainance{
+          background:rgba(55, 27, 179, 0.5);
+          width:200px;
+          height:80px;
+          margin:-380px 0px 0px 0px;
+          border-radius:20px;
+          position:relative;
+          display:none;
+          
+        }
+
+        .maintainance:before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -15px;
+          border: 10px solid transparent;
+          border-top: 30px solid rgba(55, 27, 179, 0.5);
+        }
+      
+        .maintainance-message{
+          color:white;
+          position:absolute;
+          top:0;
+          left:0;
+          margin-left:5px;
+        }
+
 
 
 
@@ -221,4 +259,4 @@ body{
 
       
 
-    
+      
