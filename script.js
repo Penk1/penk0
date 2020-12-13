@@ -16,4 +16,23 @@ $(function(){
 
     });
 
-  });
+
+
+    
+
+
+$('.logo-wrapper').mouseenter(function(){
+  $('.penk-text').fadeIn(500);
+
+});
+
+$('.logo-wrapper').mouseleave(function(){
+  $('.penk-text').fadeOut(9000);
+});
+    
+        
+
+      });
+      
+    
+      
