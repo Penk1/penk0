@@ -150,15 +150,17 @@ body{
             
             }
 
-            .intro{
-              background-image:url("penklogo.png");
-              background-size:cover;
+             .intro{
+              background-image:url("../tz.png");
+              background-size:160px 160px;
+              background-repeat:no-repeat;
               width:200px;
-              height:190px;
-              margin-top:10px;
+              height:180px;
+              margin-top:5px;
               margin-right:10px;
               float:right;
               position: relative;
+              
 
             }
 
