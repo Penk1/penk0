@@ -163,6 +163,7 @@ body{
     width:500px;
     cursor:pointer;
     float:right;
+    display:none;
   }
 
   .penk-introduce{
@@ -172,23 +173,8 @@ body{
   }
 
 
-  .penk-introduce1{
-    display:none;
-    font-size:5px;
-    font-weight:bold;
-    cursor:pointer;
-  }
-
-  .penk-introduce1:active{
-    margin-top:-800px;
-  }
-
-  .class{
-    background:rgb(145, 13, 13);
-    margin:-800px 0px 0px 0px;
-    color:rgb(9,9,9);
-    
-  }
+  
+  
 
 
 
