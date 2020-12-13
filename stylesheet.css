@@ -1,12 +1,15 @@
 body{
-  background:url("uz5.png");
   background-size:cover;
+  background:url("uz5.png");
+  
+  
   }
 
 .wrapper{
   width:1040px;
   float:left;
   margin:40px 20px;
+ 
    }
 
    .header-0{
@@ -97,22 +100,25 @@ body{
 
     
 
-    textarea{
+    .comment{
+      width:480px;
+      height:450px;
+      background-color:rgb(184, 176, 176);
+      float:left;
       margin:20px 20px;
     }
 
-    .old{
-      float:right;
-      margin:0px 20px;
-      border-radius:0px 0px 40px 0px;
-    }
+    
 
     footer{
       width:1040px;
       height:180px;
-      float:left;
+      
       line-height:200px;
       margin-top:20px;
+      
+      
+      
     }
 
 
@@ -121,6 +127,7 @@ body{
       width:200px;
       height:180px;
       float:right;
+      cursor:pointer;
     }
 
     .logo{
@@ -129,6 +136,7 @@ body{
       position:absolute;
       top:0;
       left:0;
+      cursor:pointer;
     }
 
     #close{
@@ -146,10 +154,41 @@ body{
       color:white;
       font-weight:bold;
       float:left;
-      margin:0px 0px 0px 20px;
+      margin-left:20px;
 
     }
 
+  .penk-text{
+    background:rgba(122, 120, 120, 0.5);
+    width:500px;
+    cursor:pointer;
+    float:right;
+  }
+
+  .penk-introduce{
+    font-size:5px;
+    font-weight:bold;
+    
+  }
+
+
+  .penk-introduce1{
+    display:none;
+    font-size:5px;
+    font-weight:bold;
+    cursor:pointer;
+  }
+
+  .penk-introduce1:active{
+    margin-top:-800px;
+  }
+
+  .class{
+    background:rgb(145, 13, 13);
+    margin:-800px 0px 0px 0px;
+    color:rgb(9,9,9);
+    
+  }
 
 
 
