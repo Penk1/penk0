@@ -1,14 +1,16 @@
 $(function(){
+  
+  var $element = $('#hide');
+  setInterval(function () {
 
-  $('#hide').hide();
-    $('.header-0').mouseenter(function(){
-     
-      $('#hide').fadeIn(50).fadeOut(50).fadeToggle(7);
-    });
+    $element.fadeIn(10).fadeOut(10).delay(10).fadeIn(10).delay(10).fadeOut(10).delay(10).fadeIn(10).delay(10);
 
-    $('.header-0').mouseleave(function(){
-      $('#hide').hide();
-    });
+  }, 1000);
+
+    
+
+  
+  
 
 
     $('.logo').mouseenter(function(){
@@ -16,7 +18,7 @@ $(function(){
 
     });
 
-
+   
 
     
 
@@ -29,10 +31,7 @@ $('.logo-wrapper').mouseenter(function(){
 $('.logo-wrapper').mouseleave(function(){
   $('.penk-text').fadeOut(9000);
 });
-    
-        
 
-      });
-      
-    
-      
+
+});
+
