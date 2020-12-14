@@ -292,11 +292,14 @@ body{
   }
 
   @media(max-width:670px){
+    body{
+      background-size:cover;
+    }
     .header-wrapper{
       background-size:200px;
     }
     .filter{
-      background-color:rgba(218, 216, 216, 0.5);
+      background-color:rgba(245, 244, 244, 0.5);
     }
 
     .header-0{
@@ -314,18 +317,23 @@ body{
 
     .introduce{
       color:black;
-      font-size:26px;
+      font-size:28px;
     }
 
     button{
       width:60%;
+      margin:30px;
     }
 
     a{
-      font-size:26px;
+      font-size:40px;
     }
     main{
       height:1800px;
+    }
+
+    h3{
+      font-size:40px;
     }
 
     .fotos{
@@ -336,26 +344,12 @@ body{
 
     .comment{
       width:94%;
-      height:25%;
+      height:18%;
       margin-left:3%;
-      background-color: rgb(155, 152, 152);
+      background-color: rgb(224, 216, 216);
     }
   }
 
 
-
   
-
-
- 
-  
-    
-  
-   
-   
-   
-      
-
-
-
 
