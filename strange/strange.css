@@ -8,6 +8,7 @@ body{
 .header-wrapper{
   width:100%;
   margin:0 auto;
+
 }
 
 h1{
@@ -132,7 +133,38 @@ span{
   margin-left:10px;
 }
 
+@media(max-width:1200px){
+  body{
+    background-size:220%;
+  }
+  .wrapper{
+    margin-bottom:600px;
+  }
+}
 
+@media(max-width:670px){
+ body{
+   background-size:cover;
+   display:inline-block;
+   width:80em;
+  margin:50px auto;
+
+ }
+
+.wrapper{
+  text-align:center;
+  padding-bottom:0;
+  
+}
+p{
+  font-size:18px;
+}
+
+span{
+  font-size:18px;
+}
+
+}
 
 
 
