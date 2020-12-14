@@ -292,7 +292,9 @@ body{
   }
 
   @media(max-width:670px){
-    
+    .filter{
+      background-color:rgba(100,100,100,0.5);
+    }
     
     button{
       width:60%;
