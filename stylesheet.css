@@ -292,14 +292,38 @@ body{
   }
 
   @media(max-width:670px){
-    .filter{
-      background-color:rgba(100,100,100,0.5);
+    .header-wrapper{
+      background-size:200px;
     }
-    
+    .filter{
+      background-color:rgba(218, 216, 216, 0.5);
+    }
+
+    .header-0{
+      height:200px;
+    }
+
+    #hide{
+      background-size:200px;
+    }
+
+    h1{
+      font-size:60px;
+      color:black;
+    }
+
+    .introduce{
+      color:black;
+      font-size:26px;
+    }
+
     button{
       width:60%;
     }
 
+    a{
+      font-size:26px;
+    }
     main{
       height:1800px;
     }
@@ -314,8 +338,10 @@ body{
       width:94%;
       height:25%;
       margin-left:3%;
+      background-color: rgb(155, 152, 152);
     }
   }
+
 
 
   
