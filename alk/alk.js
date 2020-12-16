@@ -1,4 +1,5 @@
 $(function(){
+  
   $('#blog').hide();
 
 $('.categry').click(function(){
@@ -20,32 +21,6 @@ $('.chaos').hover(function(){
   $('#chaos1').hide();
   $('#blog').fadeIn(500);
 });
-
-
-
-
-
-});
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
