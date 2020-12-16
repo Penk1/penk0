@@ -1,8 +1,8 @@
 body{
   background-size:cover;
   background:url("uz5.png");
- 
   
+  font-family:'Noto Sans Japanese', serif ;
   }
 
 .wrapper{
@@ -62,8 +62,14 @@ body{
       left:60px;
     }
 
+    h1{
+      font-family:"Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+      font-size:40px;
+    }
+
     .introduce{
       font-weight:bold;
+      
     }
 
     nav{
@@ -164,6 +170,7 @@ body{
       font-weight:bold;
       float:left;
       margin-left:20px;
+      font-family:"Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 
     }
 
@@ -352,4 +359,17 @@ body{
 
 
   
+
+
+ 
+  
+    
+  
+   
+   
+   
+      
+
+
+
 
