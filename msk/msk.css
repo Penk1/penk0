@@ -1,6 +1,6 @@
 body{
   background-color:black;
-  
+  font-family:'Noto Sans Japanese', serif ;
   }
 
   .wrapper{
@@ -113,6 +113,8 @@ body{
             outline: none; 
             border:10px double rgb(0, 0, 0);
             position:relative;
+            font-family:Impact, 'Haettenschweiler', "Franklin Gothic Bold", 'Charcoal', "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+            
             }
 
             .playlist:active{
@@ -193,6 +195,8 @@ body{
       .toppage{
         color:white;
         font-size:13px;
+        font-family:"Lucida Sans Typewriter", "Lucida Console", 'monaco', "Bitstream Vera Sans Mono", monospace;
+        font-weight:bold;
       }
         
       .msk2{
@@ -207,7 +211,9 @@ body{
         appearance: none;
         margin:100px 0px 0px 30px;
         border:double 5px rgb(54, 50, 109);
-        }
+        font-family:Garamond, 'Baskerville', "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+        font-weight:bold;
+      }
 
         
 
