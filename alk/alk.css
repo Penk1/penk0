@@ -1,18 +1,24 @@
-body{background-color:rgb(37, 48, 37);}
+body{background-color:rgb(37, 48, 37);
+  font-family:'Noto Sans Japanese', serif ;
+}
 
 .overwrapper{width:1200px;height:600px;margin:50px auto; border-radius: 50%;}
 
 
-.header-wrapper{overflow:hidden;border-radius:50px;
+.header-wrapper{
+  overflow:hidden;
+  border-radius:50px;
   border:10px solid rgb(93,93,102);
-  position: relative;width:900px; height:120px;
- margin:0 auto;}
+  position: relative;width:900px; height:150px;
+  margin:0 auto;
+ }
 
 header{background: url("bar201.png") repeat-x;
-background-size:600px;
-height: 120px;
+background-size:600px 150px;
+height: 150px;
 width: 2400px;
 animation: slide 40s linear infinite;
+
 }
 
 @keyframes slide
@@ -23,23 +29,36 @@ animation: slide 40s linear infinite;
 
 }
 
-.filter{background-color:rgba(233, 17, 17, 0.5);
-height:120px;width:2400px;}
+.filter{
+  background-color:rgba(233, 17, 17, 0.5);
+  height:200px;width:2400px;}
 
 
-.text-wrapper{position:absolute;top:0px;left:0px;margin-left:20px;}
+.text-wrapper{
+  position:absolute;
+  top:30px;
+  left:20px;
+  margin-left:20px;
+}
 
-.header-text{color:white;font-weight:bold;margin-top:-20px;}
+.header-text{
+  color:white;
+  font-weight:bold;
+  float:right;
+  margin:30px 50px;
 
+}
 
-
-
-
-
-        h1{color:rgb(253, 252, 252);}
+h1{
+  color:rgb(253, 252, 252);
+  float:left;
+}
+        
+        
         p{
           color:rgb(7, 7, 7);
-          font-weight: bold;}
+          font-weight: bold;
+          }
 
         h2{color:rgb(14, 13, 13);}
 
@@ -119,38 +138,46 @@ height:120px;width:2400px;}
         font-weight:bold;
       }
 
-      
+      @media(min-width:2500px){
+        .overwrapper{
+          float:left;
+          margin:20px 0px 0px 40px;
+        }
+      }
+      @media(max-width:1200px){
 
-
+      }
+      @media(max-width:670px){
+        .overwrapper{
+          width:100%;
+        }
         
+        .filter{
+         background-color:rgba(124, 123, 123, 0.5);
+        }
 
-       
+        .text-wrapper{
+          position:absolute;
+          top:30px;
+          left:0px;
+        }
+        h1{
+          font-size:40px;
+          margin:20px 0px 0px 0px;
+          
+        }
 
-       
-        
-                     
-       
+        .header-text{
+          font-size:20px;
+          margin:30px 0px 0px 40px;
+        }
 
+        h2{
+          font-size:40px;
+        }
 
-      
-
-      
-       
-
-
-
-      
-
-      
-
-     
-
-     
-
-
-
-
-  
-  
-  
-  
+        p{
+          font-size:25px;
+        }
+      }
+ 
