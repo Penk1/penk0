@@ -1,8 +1,13 @@
-body{background-color:rgb(37, 48, 37);
+body{
+  background-color:rgb(37, 48, 37);
   font-family:'Noto Sans Japanese', serif ;
 }
 
-.overwrapper{width:1200px;height:600px;margin:50px auto; border-radius: 50%;}
+.overwrapper{
+  width:1200px;
+  height:600px;m
+  argin:50px auto; 
+  border-radius: 50%;}
 
 
 .header-wrapper{
