@@ -1,5 +1,5 @@
 body{background-color:rgb(37, 48, 37);
-  font-family:"Noto Sans JP", serif;
+  font-family:'Noto Sans Japanese', serif ;
 }
 
 .overwrapper{width:1200px;height:600px;margin:50px auto; border-radius: 50%;}
@@ -180,4 +180,3 @@ h1{
           font-size:25px;
         }
       }
- 
